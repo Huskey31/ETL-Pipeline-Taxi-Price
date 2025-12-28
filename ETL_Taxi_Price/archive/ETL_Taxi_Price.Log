@@ -1,0 +1,8 @@
+2025-12-25 14:40:01,028-INFO-Extracting From CSV File has completed
+2025-12-25 14:40:01,028-INFO-Changing columns to numeric
+2025-12-25 14:40:01,029-INFO-Changing columns to numeric has completed
+2025-12-25 14:40:01,029-INFO-Handling missing Values
+2025-12-25 14:40:01,031-INFO-Handling of missing values has completed
+2025-12-25 14:40:01,031-INFO-loading data to database started
+2025-12-25 14:40:01,231-INFO-Data Loading to database has completed
+
