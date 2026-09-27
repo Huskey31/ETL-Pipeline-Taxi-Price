@@ -5,14 +5,14 @@ from sqlalchemy import create_engine
 import logging
 
 logging.basicConfig(
-    filename= r"C:\Users\khany\OneDrive\Desktop\Stuff\Richfield studies\DE_projects\PipeLines\ETL_Taxi_Price\ETL_Taxi_Price.Log",
+    filename= r"ETL_Taxi_Price.Log",
     level=logging.INFO,
     format='%(asctime)s-%(levelname)s-%(message)s',
     filemode='a'
 )
 
 try:
-    df = pd.read_csv(r"C:\Users\khany\OneDrive\Desktop\Stuff\Richfield studies\DE_projects\PipeLines\ETL_Taxi_Price\archive\taxi_trip_pricing.csv")
+    df = pd.read_csv(r"taxi_trip_pricing.csv")
     logging.info("Extracting From CSV File has completed")
     #Changing columns to numeric
     logging.info("Changing columns to numeric")
